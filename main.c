@@ -37,9 +37,9 @@ int main(int ac, char **av)
     "My Hunter mais je reste contre la chasse");
     sfText_setString(a.story, "My Hanted Hunter");
     sfText_setString(a.play, "Press PLay");
-    sfSprite_setPosition(a.text_hautpage, titreposition);
-    sfSprite_setPosition(a.story, storypos);
-    sfSprite_setPosition(a.play, playposition);
+    sfText_setPosition(a.text_hautpage, titreposition);
+    sfText_setPosition(a.story, storypos);
+    sfText_setPosition(a.play, playposition);
     sfText_setFont(a.text_hautpage, a.font);
     sfText_setFont(a.story, a.stor);
     sfText_setFont(a.play, a.playpolic);

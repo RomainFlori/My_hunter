@@ -50,20 +50,20 @@ int my_game(sfRenderWindow* window)
     a.vie = sfText_create();
     sfText_setString(a.vie, nb_tochar(intvie));
     sfText_setFont(a.vie, a.viefont);
-    sfSprite_setPosition(a.vie, vievect);
+    sfText_setPosition(a.vie, vievect);
     sfText_setCharacterSize(a.vie, 100);
     sfText_setColor(a.vie, sfColor_fromRGB(148, 0, 211));
     a.points = sfText_create();
     sfText_setFont(a.points, a.font);
     sfText_setCharacterSize(a.points, 55);
     sfText_setString(a.points, nb_tochar(number));
-    sfSprite_setPosition(a.points, score);
+    sfText_setPosition(a.points, score);
     sfText_setColor(a.points, sfColor_fromRGB(255, 255, 255));
     a.vietext = sfText_create();
     sfText_setFont(a.vietext, a.viefont);
     sfText_setCharacterSize(a.vietext, 90);
     sfText_setString(a.vietext, "Life :");
-    sfSprite_setPosition(a.vietext, vievectext);
+    sfText_setPosition(a.vietext, vievectext);
     sfText_setColor(a.vietext, sfColor_fromRGB(255, 255, 255));
     while (sfRenderWindow_isOpen(window)) {
         sfVector2i mouse = sfMouse_getPositionRenderWindow(window);

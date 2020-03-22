@@ -28,9 +28,9 @@ int gameover(int number)
     sfText_setString(a.text_hautpage, nb_tochar(number));
     sfText_setString(a.story, "Your Score is :");
     sfText_setString(a.play, "Restart Game ?");
-    sfSprite_setPosition(a.text_hautpage, resultscore);
-    sfSprite_setPosition(a.story, storypos);
-    sfSprite_setPosition(a.play, playposition);
+    sfText_setPosition(a.text_hautpage, resultscore);
+    sfText_setPosition(a.story, storypos);
+    sfText_setPosition(a.play, playposition);
     sfText_setFont(a.text_hautpage, a.playpolic);
     sfText_setFont(a.story, a.stor);
     sfText_setFont(a.play, a.playpolic);
