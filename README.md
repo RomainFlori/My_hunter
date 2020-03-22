@@ -1,7 +1,10 @@
 # My_hunter
 A 2D game which aims is to shoot the birds (like the famous Duo Duck Hunt game)
 
-
+## How to run it
+- Clone this repository
+- Use ``make`` into the folder
+- Run ./my_hunter
 
 # How it look's like :
 *The Menu*
@@ -11,5 +14,5 @@ A 2D game which aims is to shoot the birds (like the famous Duo Duck Hunt game)
 ![hunter](https://i.imgur.com/TtBHD1V.png)
 
 *Lose Menu*
-![hunter](https://i.imgur.com/9hVrb0F.jpg)
+![hunter](https://i.imgur.com/gl9FDJo.png)
 
